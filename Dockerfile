@@ -1,5 +1,4 @@
-FROM spring-base:latest
-#FROM fabric8/s2i-java:latest
+FROM jorgemoralespou/s2i-java:latest
 
 MAINTAINER Shanna Chan “shchan@redhat.com”
 

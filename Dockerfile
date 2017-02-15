@@ -8,6 +8,6 @@ COPY /osdemo-0.0.1-SNAPSHOT.jar /app/app.jar
 
 WORKDIR /app
 
-ENTRYPOINT exec java $JAVA_OPTS -jar /javaopts.jar
+ENTRYPOINT exec java $JAVA_OPTS -jar app.jar
 
 CMD ["start"]

@@ -1,4 +1,4 @@
-FROM openjdk18-openshift
+FROM registry.redhat.io/redhat-openjdk-18/openjdk18-openshift
 
 MAINTAINER Shanna Chan “shchan@redhat.com”
 

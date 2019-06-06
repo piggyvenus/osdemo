@@ -1,4 +1,4 @@
-FROM jorgemoralespou/s2i-java:latest
+FROM redhat-openjdk-18/openjdk18-openshift:latest
 
 MAINTAINER Shanna Chan “shchan@redhat.com”
 

@@ -4,9 +4,9 @@ MAINTAINER Shanna Chan “shchan@redhat.com”
 
 EXPOSE 8080
 ENV JAVA_OPTS '-Xmx256m'
-COPY /osdemo-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY /osdemo-0.0.1-SNAPSHOT.jar /app.jar
 
-WORKDIR /app
+WORKDIR /
 
 ENTRYPOINT exec java $JAVA_OPTS -jar app.jar
 

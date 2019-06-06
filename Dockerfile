@@ -1,4 +1,4 @@
-FROM redhat-openjdk-18/openjdk18-openshift:latest
+FROM redhat-openjdk-18/openjdk18-openshift
 
 MAINTAINER Shanna Chan “shchan@redhat.com”
 
